@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="banner">
+    <div className="banner" id="home">
       <div class="hero-text">
         <h1>Hi There, I'm VIET TUAN</h1>
         <p style={{ marginTop: "16px", color: "#6c757d" }}>
@@ -20,22 +20,22 @@ function Banner() {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="mailto:tranviettuantvt@gmail.com">
               <i class="fa-solid fa-envelope"></i>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://www.facebook.com/viettuan.tran.9028" target="_blank">
               <i class="fa-brands fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://github.com/tranviettuantvt" target="_blank">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://app.netlify.com/teams/tranviettuantvt/sites" target="_blank">
               <iconify-icon
                 style={{ color: "#393939", position: "relative", top: "2px" }}
                 icon="simple-icons:netlify"

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth !important;
+}
 /* Navbar */
 .navbar-brand img {
   width: 2.6rem;
@@ -27,6 +30,7 @@
 .nav-link:focus,
 .nav-link:hover {
   color: white !important;
+  cursor: pointer;
 }
 
 .nav-link:focus .nav-after::after {

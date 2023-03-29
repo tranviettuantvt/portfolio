@@ -2,7 +2,7 @@ import React from "react";
 
 function Aboutme() {
   return (
-    <div>
+    <div id="about">
       <h3 className="about-text">
         <i class="fa-solid fa-user-tie"> About Me</i>
       </h3>
@@ -52,13 +52,15 @@ function Aboutme() {
                 <span>Place: </span>Ngu Hanh Son, Da Nang
               </li>
             </ul>
+            <a href="https://drive.google.com/file/d/1uLJuY3dQ0Jw-KFKysW1AtS2bQs2LFcqO/view?usp=sharing" target="_blank">
             <button className="banner-btn">
-              Resume{" "}
+              Resume
               <i
                 style={{ position: "relative", top: "1px", left: "2px" }}
                 class="fa-solid fa-circle-right"
               ></i>
             </button>
+            </a>
           </div>
         </div>
       </div>

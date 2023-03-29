@@ -3,6 +3,7 @@ import React from "react";
 function Education() {
   return (
     <div
+    id="education"
       className="education"
       style={{ backgroundColor: "#ffffff", padding: "2.6rem 0" }}
     >
@@ -13,7 +14,7 @@ function Education() {
         <p>
           Education Is Not The Learning Of Facts, But The Training Of The Mind
           To Think. 
-          <a target="_blank" style={{ color: "#393939" , marginLeft:"4px"}} href="">
+          <a target="_blank" style={{ color: "#393939" , marginLeft:"4px"}} href="https://drive.google.com/drive/folders/1U_biRhKu1FXOyov86tbvaHzwCLrSRmaD">
             <i class="fa-solid fa-paper-plane"></i>
           </a>
         </p>

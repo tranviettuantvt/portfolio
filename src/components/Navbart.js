@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Navbart() {
   return (
@@ -22,41 +23,41 @@ function Navbart() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto me-5">
             <li class="nav-item active">
-              <a class="nav-link " href="#">
+              <Link className="nav-link nav-after" to="home" delay={50} span={true} smooth={true} activeClass="active">
                 <div className="nav-after">
                   Home <span class="sr-only">(current)</span>
                 </div>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-after" href="#">
+              <Link className="nav-link nav-after" to="about" delay={50} span={true} smooth={true}>
                 <div className="nav-after">About</div>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-after" href="#">
+              <Link className="nav-link nav-after" to="skill" delay={50} span={true} smooth={true}>
                 <div className="nav-after">Skill</div>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-after" href="#">
+              <Link className="nav-link nav-after" to="education" delay={50} span={true} smooth={true}>
                 <div className="nav-after">Education</div>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-after" href="#">
+              <Link className="nav-link nav-after" to="project" delay={50} span={true} smooth={true}>
                 <div className="nav-after">Project</div>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-after" href="#">
+              <Link className="nav-link nav-after" to="education" delay={50} span={true} smooth={true}>
                 <div className="nav-after">Certificate</div>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-after" href="#">
+              <Link className="nav-link nav-after" to="connect" delay={50} span={true} smooth={true}>
                 <div className="nav-after">Contact</div>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

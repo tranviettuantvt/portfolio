@@ -83,7 +83,7 @@ function Projects() {
     },
   ];
   return (
-    <section className="project">
+    <section className="project" id="project">
       <hr style={{ margin: "0 12rem" }} />
       <hr style={{ margin: "1rem 16rem 5rem" }} />
       <Container>

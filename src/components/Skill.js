@@ -2,7 +2,7 @@ import React from "react";
 
 function Skill() {
   return (
-    <div className="skill">
+    <div className="skill" id="skill">
       <h2 className="skill-text">
         <i class="fa-solid fa-laptop-code"></i> Skills & Abilities
       </h2>
