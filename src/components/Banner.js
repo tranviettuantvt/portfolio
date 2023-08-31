@@ -44,8 +44,8 @@ function Banner() {
           </li>
         </ul>
       </div>
-      <div className="img-avatar">
-        <img src="./images/avatar.jpg" alt="" />
+      <div className="img-avatar" style={{width:"30%"}}>
+        <img src="./images/TVT.jpg" alt="" style={{width:"100%"}}/>
       </div>
     </div>
   );

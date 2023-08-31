@@ -110,7 +110,7 @@ html {
 .img-avatar {
   display: inline-block;
   position: absolute;
-  right: 10%;
+  right: 8%;
   top: 50%;
   transform: translateY(-50%);
 }
